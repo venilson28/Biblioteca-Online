@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --color-back:steelblue;
+    --color-font: black;
+    --fonte-p: 'inter';
+    --fonte-h1: 'sans-semi';
+  
+}
+@font-face {
+    font-family: 'inter';
+    src: url(fonts/Inter-VariableFont_opsz\,wght.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'sans-semi';
+    src: url(fonts/SofiaSansSemiCondensed-VariableFont_Wght.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+  }
+  body{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  section{
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(IMG/arte-papelaria.jpg);
+  background-position: center;
+  background-size: cover;
+  }
+  h1{
+    font-family: var(--fonte-h1);
+    text-align: center;
+    font-size: 35px;
+    margin: 40px;
+  }
+  .container{
+    width: 52%;
+    height: 500px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 100px 0 100px 0;
+    
+  }
+ .container_form{
+width: 400px;
+height: 500px;
+background-color:var(--color-back);
+border-radius: 100px 0 0 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+ }
+ .form{
+    width: 500px;
+height: 500px;
+background-color: white;
+display: flex;
+align-items: center;
+flex-direction: column;
+border-radius: 0 0 100px 0;
+
+ }
+ .form_grupo{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+ }
+ .form_input{
+    outline: 0;
+    
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px ;
+    background-color: rgba(128, 128, 128, 0.39);
+    color: black
+    
+
+ }.form_label{
+    font-family: var(--fonte-h1);
+    
+
+ }
+ .submit{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: var(--color-back);
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .submit_btn{
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: var(--color-back);
+    color: white;
+    font-family: var(--fonte-h1);
+    font-size: 15px;
+    
+ }
+ .submit_btn1{
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: white;
+    color:var(--color-back);
+    font-family: var(--fonte-h1);
+    font-size: 15px;
+    
+
+ }
+ button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid var(--color-back);
+    color: var(--color-back)
+    
+ }
+ #datanascimento, #email, #nome{
+padding: 10px;
+ }
+ .infor{
+text-align: center;
+width: 350px;
+height: 250px;
+
+ }
+ .infor p{
+    color: var(--color-font);
+    font-family: var(--fonte-p);
+ }
+ .botao{
+width: 350px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+ }
+   
